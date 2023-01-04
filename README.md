@@ -1,2 +1,2 @@
 # github-action-hello-wordl
-start template
+- Basic: Hello Wordl
