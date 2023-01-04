@@ -1,0 +1,21 @@
+name: CI
+on: 
+  pull_request: 
+    branches: [ master ]
+  jobs:
+    build: 
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - name: Run a one-line script
+          run: echo Hello Wordl!
+        - name: Run a multi-line script
+          run: echo Hello, wordl!
+        - name: Run a multi-line script
+          run: | 
+            echo "Cheescake"
+            echo  "tested, delicius"
+
+
+
+
